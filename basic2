@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        .col {
+            flex: 1;
+            padding: 15px;
+        }
+        .header {
+            background-color: #f8f9fa;
+            padding: 30px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .profile {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 30px;
+        }
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .profile-info {
+            flex: 1;
+        }
+        .profile-info h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .profile-info p {
+            margin: 0;
+            font-size: 18px;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        .project {
+            flex: 1;
+            margin-right: 30px;
+            background-color: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+        }
+        .project h3 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .social {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        .social-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #f8f9fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+        }
+        .social-icon i {
+            font-size: 24px;
+            color: #007bff;
+        }
+        .footer {
+            background-color: #007bff;
+            padding: 30px;
+            color: #fff;
+            text-align: center;
+        }
+        .footer h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+    </style>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row header">
+            <div class="col">
+                <h1>My Portfolio</h1>
+            </div>
+        </div>
+        <div class="row profile">
+            <div class="col profile-image">
+                <img src="https://via.placeholder.com/200x200" alt="Profile Image">
+            </div>
+            <div class="col profile-info">
+                <h2>John Doe</h
